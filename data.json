@@ -129,7 +129,9 @@
           }
         },
         "purchase": {
-          "status": "pending"
+          "effective_amount_brl": 60.0,
+          "effective_bets": 10,
+          "status": "caixa_confirmed"
         },
         "schema_version": "1.0",
         "status": "awaiting_purchase",
