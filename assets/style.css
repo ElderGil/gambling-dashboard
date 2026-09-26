@@ -66,6 +66,8 @@ h1 span { color: #c2410c; }
 .empty { border: 1px dashed #bcc9db; border-radius: 18px; background: rgba(255,255,255,.7); }
 .result { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: 14px; margin: 0 20px 20px; padding: 15px; border: 1px solid rgba(37,99,235,.28); border-radius: 12px; background: rgba(37,99,235,.06); }
 .result-mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; background: #2563eb; color: #fff; font-weight: 900; }
+.result.provisional { border-color: rgba(249,115,22,.34); background: rgba(249,115,22,.07); }
+.result.provisional .result-mark { background: #f97316; }
 .result > div { display: grid; gap: 3px; }
 .result small { color: #68758b; }
 .result code { font-weight: 800; }
