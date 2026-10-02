@@ -14,6 +14,44 @@
         "contest_id": 3066,
         "created_at": "2026-10-02T14:04:33.593172Z",
         "draw_date": "2026-10-03",
+        "human_draft": [
+          {
+            "id": "H01",
+            "numbers": [
+              12,
+              15,
+              26,
+              29,
+              33,
+              47
+            ],
+            "owner": "Elder"
+          },
+          {
+            "id": "H02",
+            "numbers": [
+              4,
+              13,
+              17,
+              25,
+              29,
+              31
+            ],
+            "owner": "Victor"
+          },
+          {
+            "id": "H04",
+            "numbers": [
+              6,
+              19,
+              22,
+              28,
+              36,
+              60
+            ],
+            "owner": "Ellyson"
+          }
+        ],
         "probabilities": {
           "combined": {
             "quadra_exact": {

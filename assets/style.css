@@ -57,6 +57,7 @@ h1 span { color: #c2410c; }
 .ticket-title > span { color: #2563eb; font-size: 12px; font-weight: 800; }
 .tickets { display: grid; gap: 7px; padding: 12px; }
 .ticket { display: grid; grid-template-columns: 38px 1fr auto; align-items: center; gap: 10px; padding: 9px 10px; border-radius: 9px; background: #f8faff; }
+.ticket.draft { border: 1px dashed rgba(249,115,22,.55); background: #fffaf5; }
 .ticket.best { outline: 1px solid rgba(37,99,235,.35); background: #f1f6ff; }
 .ticket.human.best { outline-color: rgba(249,115,22,.4); background: #fff7f1; }
 .ticket > strong { color: #68758b; font-size: 10px; }
