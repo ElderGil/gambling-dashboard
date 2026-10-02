@@ -131,10 +131,10 @@
         "purchase": {
           "effective_amount_brl": null,
           "effective_bets": null,
-          "status": "pending"
+          "status": "purchased"
         },
         "schema_version": "1.0",
-        "status": "awaiting_purchase",
+        "status": "purchased",
         "tickets": [
           {
             "eligible_for_combined_probability": true,
