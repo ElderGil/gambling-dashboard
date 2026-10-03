@@ -27,6 +27,16 @@ h1 span { color: #c2410c; }
 .section-head h2 { margin: 0; font-size: 28px; letter-spacing: -.035em; }
 .section-head > span { color: #68758b; font-size: 11px; }
 .contests { display: grid; gap: 18px; }
+.past-contest { overflow: hidden; border: 1px solid #d8e0ec; border-radius: 18px; background: #fff; box-shadow: 0 12px 36px rgba(23,32,51,.06); }
+.past-contest-summary { display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 12px 22px; cursor: pointer; list-style: none; white-space: nowrap; }
+.past-contest-summary::-webkit-details-marker { display: none; }
+.past-contest-summary:hover { background: #f8faff; }
+.past-contest-summary:focus-visible { outline: 3px solid #2563eb; outline-offset: -3px; }
+.past-contest-summary > span:first-child { font-size: 14px; }
+.past-contest-summary time { color: #68758b; font-size: 12px; }
+.past-contest-chevron { width: 9px; height: 9px; margin-left: auto; border-right: 2px solid #68758b; border-bottom: 2px solid #68758b; transform: rotate(45deg); transition: transform .15s ease; }
+.past-contest[open] .past-contest-chevron { transform: rotate(225deg); }
+.past-contest > .contest-card { border: 0; border-top: 1px solid #e7ecf3; border-radius: 0; box-shadow: none; }
 .contest-card { overflow: hidden; border: 1px solid #d8e0ec; border-radius: 18px; background: #fff; box-shadow: 0 12px 36px rgba(23,32,51,.06); }
 .contest-head { display: flex; justify-content: space-between; align-items: start; padding: 20px 22px; border-bottom: 1px solid #e7ecf3; }
 .contest-head > div { display: grid; gap: 2px; }
