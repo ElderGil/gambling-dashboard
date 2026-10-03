@@ -129,8 +129,8 @@
           }
         },
         "purchase": {
-          "effective_amount_brl": null,
-          "effective_bets": null,
+          "effective_amount_brl": "60",
+          "effective_bets": 10,
           "status": "purchased"
         },
         "schema_version": "1.0",
